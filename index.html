@@ -9,8 +9,28 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
-    <table></table>
+    <div>
+      <form id="form">
+        <label for="blocksInTank">Enter blocks values</label>
+        <input
+          type="text"
+          id="waterTankBlocks"
+          name="waterTankBlocks"
+          placeholder="Enter comma seperated values here"
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3>Input:</h3>
+      <table id="inputTable"></table>
+    </div>
+    <div>
+      <h3>Output:</h3>
+      <h4 id="totalUnits"></h4>
+      <table id="outputTable"></table>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
