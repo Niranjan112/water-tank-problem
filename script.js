@@ -31,9 +31,6 @@ form.addEventListener("submit", (event) => {
     for (let colIndex = 0; colIndex < colCount; colIndex++) {
       inputTableRow.insertCell(colIndex);
       outputTableRow.insertCell(colIndex);
-
-      // inputTableCol.textContent = rowIndex + "," + colIndex;
-      // outputTableCol.textContent = rowIndex + "," + colIndex;
     }
   }
 
